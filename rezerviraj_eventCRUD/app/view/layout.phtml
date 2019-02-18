@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+
+<head>
+    <?php include_once "head.phtml" ?>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-x">
+            <div class="large-1 medium-1 columns hide-for-small-only">
+                <a href="<?php echo App::config("url")."index" ?>"><img
+                        src="<?php echo App::config("url")."public/css/logo.png" ?>" alt="Logo"></a>
+            </div>
+            <div class="large-11 medium-11 small-12 columns" id="center">
+                <h1><?php echo App::config("nazivApp") ?></h1>
+            </div>
+        </div>
+
+        <?php include_once "izbornik.phtml"?>
+        <div class="callout" id="pozadina">
+            <?php echo $content ?>
+        </div>
+
+        <div class="callout">
+            &copy; Maja Balaš <?php echo date("Y") ?>
+            <br />
+            &copy; <a href="https://pngtree.com/free-backgrounds"> free background photos from pngtree.com</a>
+        </div>
+
+
+
+
+    </div>
+
+    <script src="<?php echo App::config("url") ?>public/js/vendor/jquery.js"></script>
+    <script src="<?php echo App::config("url") ?>public/js/vendor/what-input.js"></script>
+    <script src="<?php echo App::config("url") ?>public/js/vendor/foundation.js"></script>
+    <script src="<?php echo App::config("url") ?>public/js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<div class="grid-x">
+    <?php foreach($mjesta as $mjesto): ?>
+
+    <div class="cell large-2 medium-2 small-2">
+        <div class="success callout mjesta">
+            <h5><?php echo $mjesto->brojReda . ": " . $mjesto->brojSjedala ?></h5>
+        </div>
+    </div>
+
+    <?php endforeach; ?>
+
+</div>

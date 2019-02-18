@@ -1,0 +1,61 @@
+*{
+    font-family: "meriendaregular", sans-serif; 
+    color: maroon; 
+}
+
+#center>h1{
+    font-family: "meriendaregular";
+    width: 100%; 
+    text-align: center; 
+    padding-top:15px;
+}
+
+body{
+background-color: rgb(212, 202, 203);
+}
+
+#pozadina{
+    background-size: cover;
+    background-image: url("http://polaznik06.edunova.hr/rezerviraj_event/public/css/pozadina.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.5;
+    padding-bottom: 20%;
+    min-height: 400px;
+}
+
+@font-face{
+    font-family: "meriendaregular";
+    src: url("http://polaznik06.edunova.hr/rezerviraj_event/public/css/merienda-regular-webfont.woff2") format("woff2"),
+         url("http://polaznik06.edunova.hr/rezerviraj_event/public/css/merienda-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.top-bar-right{
+
+    text-align:center;
+}
+
+#login{
+display:inline-block;
+}
+
+.fa-edit{
+    color: green;
+}
+
+.mjesta{
+    text-align: center;
+    margin-right: 15px;
+}
+
+.large-6.columns{
+    padding: 10px;
+}
+
+.trash{
+    color: red;
+}

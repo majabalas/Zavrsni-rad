@@ -1,0 +1,20 @@
+<table>
+    <thead>
+        <tr>
+            <th>Korisničko ime</th>
+            <th>Lozinka</th>
+
+        </tr>
+    </thead>
+    <tbody>
+
+        <?php foreach ($korisnici as $korisnik) : ?>
+        <tr>
+            <td><?php echo $korisnik->korisnickoIme ?></td>
+            <td><?php echo $korisnik->lozinka ?></td>
+        </tr>
+
+    </tbody>
+    <?php endforeach; ?>
+
+</table>
